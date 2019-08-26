@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "SaltyAI",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "Salty Panda Studios UG.",
+	"CreatedByURL": "https://saltypandastudios.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+    {
+      "Name": "SaltyAI",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "SaltyAIEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+	]
+}
