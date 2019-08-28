@@ -14,9 +14,6 @@ TSharedRef<IPropertyTypeCustomization> FFunctionContextCustomization::MakeInstan
 
 void FFunctionContextCustomization::CustomizeHeader(TSharedRef<class IPropertyHandle> StructPropertyHandle, class FDetailWidgetRow& HeaderRow, IPropertyTypeCustomizationUtils& StructCustomizationUtils)
 {
-	uint32 NumChildren;
-	StructPropertyHandle->GetNumChildren(NumChildren);
-
 	ClassProperty = StructPropertyHandle->GetChildHandle("ContextClass");
 	FunctionProperty = StructPropertyHandle->GetChildHandle("FunctionToExecute");
 

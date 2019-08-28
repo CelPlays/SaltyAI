@@ -10,7 +10,7 @@ public class SaltyAIEditor : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				// ... add public include paths required here ...
+				"SaltyAI/Public/"
 			}
 			);
 				
@@ -40,6 +40,8 @@ public class SaltyAIEditor : ModuleRules
 				"Engine",
 				"Slate",
 				"SlateCore",
+                "AIModule",
+                "SaltyAI"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

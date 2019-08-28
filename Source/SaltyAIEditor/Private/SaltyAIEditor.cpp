@@ -3,6 +3,7 @@
 #include "SaltyAIEditor.h"
 #include <PropertyEditorModule.h>
 #include "FunctionContextCustomization.h"
+#include "BlackboardKeyChangerCustomization.h"
 
 #define LOCTEXT_NAMESPACE "FSaltyAIEditorModule"
 
@@ -12,6 +13,7 @@ void FSaltyAIEditorModule::StartupModule()
 
 	//Custom properties
 	PropertyModule.RegisterCustomPropertyTypeLayout("FunctionContext", FOnGetPropertyTypeCustomizationInstance::CreateStatic(&FFunctionContextCustomization::MakeInstance));
+	PropertyModule.RegisterCustomPropertyTypeLayout("BlackboardKeyChanger", FOnGetPropertyTypeCustomizationInstance::CreateStatic(&FBlackboardKeyChangerCustomization::MakeInstance));
 }
 
 void FSaltyAIEditorModule::ShutdownModule()
