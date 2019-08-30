@@ -5,4 +5,4 @@ This plugin is developed by Salty Panda Studios and is available for free and op
 This plugin is developed for internal usage in Salty Panda Studios so the available code is tailored to our needs, but you're always free to fork and make it your own :) 
 
 Binaries:
-4.22:
+4.22: https://drive.google.com/file/d/1TtmSq4Rf9TC0CIVB4lAWvUfq9xu6cUjD/view?usp=sharing
