@@ -6,3 +6,4 @@ This plugin is developed for internal usage in Salty Panda Studios so the availa
 
 Binaries:
 4.22: https://drive.google.com/file/d/1TtmSq4Rf9TC0CIVB4lAWvUfq9xu6cUjD/view?usp=sharing
+4.24: https://drive.google.com/file/d/1rzeizaLGg7qiO2XhxqFl71zk0v9Gz35o/view?usp=sharing
